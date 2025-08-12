@@ -3,7 +3,7 @@
 This repo is **ready for GitHub Pages**. It serves a static soundboard with no backend.
 
 ## Files
-- `index.html`, `app.js`, `styles.css` — the app
+- `index.html`, `app.js`, `styles.css` — the app (mobile-first, responsive UI)
 - `sounds/` — put your audio files here (`.mp3`, `.wav`, `.ogg`)
 - `sounds.json` — manifest of filenames inside `sounds/`
 - `.github/workflows/update-sounds-manifest.yml` — optional workflow to regenerate `sounds.json` whenever `sounds/` changes
